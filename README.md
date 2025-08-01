@@ -1,4 +1,4 @@
-# Curso_Python
+# Curso_Python/Referencias_Python
 Repositório do [Curso de Python 3 do Básico ao Avançado com Projetos Reais](https://www.udemy.com/course/python-3-do-zero-ao-avancado/?couponCode=KEEPLEARNING). </br>
 Foco em Desenvolvimento. 
 
