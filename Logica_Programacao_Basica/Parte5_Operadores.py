@@ -38,7 +38,7 @@ print(nome+sobrenome)
 
 #==========Precedencia==========
 #Ordem:
-# 1. (n + n)
+# 1. ()
 # 2. **
 # 3. * / // %
 # 4. + -

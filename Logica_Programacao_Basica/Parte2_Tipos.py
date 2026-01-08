@@ -1,3 +1,19 @@
+#==========Python Data Types==========
+#Data Types - Fundamental
+int
+float
+bool
+str
+list
+tuple
+set
+dict
+
+#Classes -> Custom Types
+
+#Specialized Data Types
+None
+
 #==========A Funcao Print==========
 print(12, 34, sep="-", end='##\n')
 print(876, 32, sep="Pedro")

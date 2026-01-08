@@ -6,3 +6,4 @@ O interpretador le;
 
 # Isso eh um comentario
 
+# Python é uma linguagem interpretada
