@@ -1,5 +1,4 @@
 #==========Estruturas de Repeticao==========
-
 #WHILE
 condicao = True
 while condicao:

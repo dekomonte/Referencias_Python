@@ -1,5 +1,4 @@
 #==========Exceptions==========
-
 #try -> Tentar executar o código
 #except -> Ocorrer erro ao tentar executar o código
 

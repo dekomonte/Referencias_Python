@@ -1,5 +1,4 @@
 #==========Interpolacao==========
-
 # Interpolação básica de strings -> Semelhante ao format
 # s - string
 # d e i - int
@@ -22,7 +21,6 @@ cargo = 'estagiária'
 print('Meu nome é %s, sou %s, tenho %d e %.1f' % (nome2,cargo,idade,altura))
 
 #==========Formatacao==========
-
 # Formatação básica de strings
 # s - string
 # d - int
@@ -61,7 +59,6 @@ print(f'O hexadecimal de 1500 é {1500:08X}')
 print(f'{variavel!r}')
 
 #==========Fatiamento==========
-
 # Fatiamento de strings
 #  012345678
 #  Olá mundo
