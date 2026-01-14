@@ -1,5 +1,4 @@
 #==========Strings==========
-
 def calculo(valor):
     return valor * 100
 
