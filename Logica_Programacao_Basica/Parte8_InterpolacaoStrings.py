@@ -7,18 +7,18 @@
 
 
 nome = 'Luiz'
-preco = 1000.95897643
+preco = 6523.95897643
 variavel = '%s, o preço é R$%.2f' % (nome, preco)
 
 print(variavel)
 print('O hexadecimal de %d é %08X' % (1500, 1500))
 
 nome2 = 'Andressa'
-idade = 26
+idade = 28
 altura = 1.58
 cargo = 'estagiária'
 
-print('Meu nome é %s, sou %s, tenho %d e %.1f' % (nome2,cargo,idade,altura))
+print('Meu nome é %s, sou %s, tenho %d anos e %.1f m de altura' % (nome2,cargo,idade,altura))
 
 #==========Formatacao==========
 # Formatação básica de strings
@@ -84,3 +84,5 @@ print(palavra[1:5:2]) #13
 print(palavra[::]) #0123456789
 print(palavra[2:]) #23456789
 print(palavra[:2]) #01
+
+#Strings are immutable
