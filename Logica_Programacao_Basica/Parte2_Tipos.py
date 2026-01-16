@@ -54,3 +54,5 @@ print(45 == 98) #False
 print(type(True))
 print(type(False))
 
+print(bool(0))
+print(bool(1))
