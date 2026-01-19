@@ -10,3 +10,4 @@ Partes:
 7. Estruturas Condicionais, Operadores de Comparação, Operadores Lógicos, Operadores
 8. String -> Interpolação, Formatação, Fatiamento
 9. Exceptions
+10. Estruturas de Repetição (while)
