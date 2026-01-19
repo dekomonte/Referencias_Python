@@ -24,3 +24,7 @@ while i < 5:
         print("Vou sair do loop com break, i não vai chegar no 5")
         break #Sai do loop antes da condição ser ficar falsa
     i+=1
+
+
+#Operadores de atribuição
+#= += -= *= /= //= **= %=
