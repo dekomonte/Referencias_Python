@@ -44,3 +44,25 @@ print('c' in lista3) # Check if a value is present in a sequence
 print('e' in lista3)
 
 print(lista.count(4)) # Returns the number of elements with the specified value
+
+#Lists Methods 3
+print(lista3)
+
+lista3.sort() # Ordena
+print(lista3)
+
+# methods != functions
+lista3 = ['a', 'r', 'j', 'v', 'e', 't']
+print(sorted(lista3)) # Produz uma copia da lista e ordena
+
+lista4 = lista2.copy() # Faz a copia de uma lista
+print(lista4)
+
+lista3.reverse() # Inverte os elementos da lista
+print(lista3)
+
+
+lista3 = ['a', 'r', 'j', 'v', 'e', 't']
+lista3.sort()
+lista3.reverse()
+print(lista3)
