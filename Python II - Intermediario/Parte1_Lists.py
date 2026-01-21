@@ -28,3 +28,18 @@ novo_frutas = frutas[:] #Copia toda lista
 novo_frutas[2] = 'limão' #fruta não é modificada
 print(frutas)
 print(novo_frutas)
+
+#Matrix 
+matrix = [
+    [1,2,3],
+    ['a','b','c'],
+    [7,8,9]
+]
+
+print(matrix[0][1])
+
+matrix2 = [
+    [1,0,0],
+    [0,1,0],
+    [0,0,1]
+]
