@@ -48,3 +48,13 @@ while linhas < 5:
         colunas+=1
     linhas+=1
     
+#Exemplo 6    
+# while-else (Python permite)
+# With the else statement we can run a block of code once when the condition no longer is true
+i = 0
+while i < 5:
+  print(i)
+  i += 1
+  print("Condição verdadeira")
+else:
+  print("Condição falsa")
