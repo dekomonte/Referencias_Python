@@ -18,3 +18,16 @@ for pokemon in resposta_json['results']:
     url = pokemon['url']
     print(nome, url)
 
+    #Trazer novas informações sobre o Pokemon usando a URL
+    #print("Jogos em que aparece:")
+    #s = requests.get(url)
+    #dados_individuais = s.json()
+    
+    #for jogos in dados_individuais['game_indices']:
+        #nome_jogo = jogos['version']['name']
+        #print(nome_jogo.capitalize())
+    
+    print('\n')
+
+    
+
