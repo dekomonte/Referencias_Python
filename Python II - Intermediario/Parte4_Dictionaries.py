@@ -48,3 +48,12 @@ print(lista[1]['a'])
 print(lista[1]['b'])
 print(lista[1]['x'])
 print(lista[1]['teste'])
+
+#The key cannot change, it's immutable
+#Exemplo 3 
+dicionario3 = {
+    '123': ['a','b','c'],
+    '123': 'Bora Tubarões'
+}
+
+print(dicionario3['123']) #O primeiro registro é perdido
