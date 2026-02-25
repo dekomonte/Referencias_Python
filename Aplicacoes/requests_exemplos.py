@@ -4,11 +4,11 @@ import requests
 #==========Exemplo - PokeAPI==========
 r = requests.get('https://pokeapi.co/api/v2/pokemon/')
 
-# print('Status Code: ',r.status_code)
-# print('Headers: ',r.headers['content-type'])
-# print('Enconding: ',r.encoding)
-# print('text: ',r.text)
-# print('json: ',r.json())
+print('Status Code: ',r.status_code)
+print('Headers: ',r.headers['content-type'])
+print('Enconding: ',r.encoding)
+print('text: ',r.text)
+print('json: ',r.json())
 
 #==========Exemplo - Requests DOC==========
 print('General')
@@ -17,8 +17,9 @@ print(r)
 print('Status Code: ',r.status_code)
 print('Headers: ',r.headers['content-type'])
 print('Enconding: ',r.encoding)
-# print('text: ',r.text)
-# print('json: ',r.json())
+print('text: ',r.text)
+print('json: ',r.json())
+print(r.headers)
 
 #HTTP request
 print('HTTP request')
@@ -38,3 +39,35 @@ print('patch: ',r)
 r = requests.put('https://httpbin.org/put')
 print('put: ',r)
 
+#POST requests
+print('POST request')
+dados = {'key1':'valor1',
+         'key2':'valor2',
+         'key3':'valor3'}
+
+r = requests.post('https://httpbin.org/post',data=dados) 
+print('post: ', r.text)
+
+dados = {'login':'teste',
+         'senha':'teste_senha',
+         'key3':'valor3'}
+
+r = requests.post('https://httpbin.org/post',data=dados) 
+print('post: ', r.text)
+
+dados = {'chave1':['login','senha','valor1']}
+
+r = requests.post('https://httpbin.org/post',data=dados) 
+print('post: ', r.text)
+
+print('Bad requests')
+# bad_r = requests.get('https://httpbin.org/status/404')
+# print(bad_r)
+# print(bad_r.status_code)
+# bad_r.raise_for_status()
+
+print('Cookies')
+url = 'https://httpbin.org/cookies'
+cookies = dict(cookies_are='working')
+r = requests.get(url, cookies=cookies)
+print(r.text)
