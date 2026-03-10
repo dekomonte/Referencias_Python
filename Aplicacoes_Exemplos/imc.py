@@ -20,10 +20,11 @@ def resultado(imc):
         print('ERROR')
 
 
-nome = input('Digite o nome: ')
+# nome = input('Digite o nome: ')
 peso = float(input('Digite o peso (kg): '))
 h = float(input('Digite a altura (m): '))
 
 imc = peso/(h ** 2)
+print(f"Seu IMC é {imc:.2f} kg/m²")
 resultado(imc)
 
