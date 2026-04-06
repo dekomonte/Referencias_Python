@@ -58,6 +58,9 @@ print("FORA DO BLOCO")
 # Operadores in e not in
 # in -> "está em"
 # not in -> "não está em"
+
+print('a' > 'b') #ordem lexicográfica
+
 # Strings são iteráveis
 #  0 1 2 3 4 5
 #  O t á v i o
