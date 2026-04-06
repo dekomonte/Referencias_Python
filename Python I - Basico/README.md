@@ -11,3 +11,4 @@ Partes:
 8. String -> Interpolação, Formatação, Fatiamento
 9. Exceptions
 10. Estruturas de Repetição (while)
+11. Estruturas de Repetição (for)
