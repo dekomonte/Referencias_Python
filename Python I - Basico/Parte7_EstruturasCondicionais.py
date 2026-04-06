@@ -1,4 +1,25 @@
 #==========Estrutura Condicional==========
+
+#Exemplo 1
+tem_idade = False
+tem_licenca = False
+
+if tem_idade:
+    print("Tem idade para dirigir!")
+elif tem_licenca:
+    print("Pode dirigir")
+else:
+    print("Não pode dirigir")
+print("Saindo")
+
+if tem_idade and tem_licenca:
+    print("Você PODE dirigir!")
+else: 
+    print("Você não pode dirigir!")
+print("Saindo")
+
+
+#Exemplo 2
 entrada = input("A luz deveria ser apagada?")
 
 if entrada == 'sim':
