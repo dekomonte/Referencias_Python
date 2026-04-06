@@ -89,3 +89,11 @@ else:
 #None -> não valor
 #is e is not -> é ou não é (tipo, valor, identidade)
 #id -> identidade
+
+#==========Operador Ternário==========
+#condicao_se_verdadeira if condicao else condicao_if_else
+
+amigo = True
+
+mensagem = "mensagem permitida" if amigo else "NÃO permitida"
+print(mensagem)
