@@ -8,5 +8,5 @@ Partes:
 5. Dicionários - Métodos
 6. Tuplas
 7. Sets (Conjuntos)
-8. range
-9. enumerate
+8. range()
+9. enumerate()
