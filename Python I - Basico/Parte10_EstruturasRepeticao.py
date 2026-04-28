@@ -51,6 +51,7 @@ while linhas < 5:
 #Exemplo 6    
 # while-else (Python permite)
 # With the else statement we can run a block of code once when the condition no longer is true
+print("===== Exemplo 6 =====")
 i = 0
 while i < 5:
   print(i)
@@ -58,3 +59,18 @@ while i < 5:
   print("Condição verdadeira")
 else:
   print("Condição falsa")
+
+#Exemplo 7
+print("===== Exemplo 7 =====")
+minha_lista = ['a','b','c','d']
+i = 0
+while i < len(minha_lista):
+    print(minha_lista[i])
+    i+=1
+
+#Exemplo 8
+print("===== Exemplo 8 =====")
+while True:
+   resposta_usuario = input("digite algo: ")
+   if(resposta_usuario == 'algo'):
+       break
