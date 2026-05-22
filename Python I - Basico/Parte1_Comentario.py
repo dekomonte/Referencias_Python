@@ -1,4 +1,6 @@
 #=====Docstrings=====
+#String literal usada para documentar trechos de código como módulos, classes ou funções
+
 """
 Docstrings
 Nao eh um comentario;
@@ -21,6 +23,6 @@ help(test)
 
 print(test.__doc__)
 
-#=====Comentários=====
+#=====Comentarios=====
 # Isso eh um comentario
 # Python é uma linguagem interpretada
