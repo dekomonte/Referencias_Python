@@ -19,4 +19,5 @@ def checkDriverAge(age=0):
 # age = input("What is your age?: ")
 
 checkDriverAge(92)
+checkDriverAge()
 
