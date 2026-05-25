@@ -10,3 +10,4 @@ Partes:
 7. Sets (Conjuntos)
 8. range()
 9. enumerate()
+10. Funções
