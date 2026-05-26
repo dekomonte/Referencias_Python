@@ -10,7 +10,6 @@ print(type(True))
 print(type([]))
 print(type({}))
 print(type(()))
-
 # <class 'str'>
 # <class 'int'>
 # <class 'float'>
@@ -19,4 +18,14 @@ print(type(()))
 # <class 'dict'>
 # <class 'tuple'>
 
-#Paradigm 
+#Paradigm -> It's a way to think and structure our code
+#CamelCase
+
+class PrimeiraClasse: #class
+    pass
+
+objeto1 = PrimeiraClasse() #instanciate
+
+print(type(objeto1))
+#<class '__main__.PrimeiraClasse'>
+
