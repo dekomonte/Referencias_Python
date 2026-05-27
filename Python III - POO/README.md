@@ -1,4 +1,0 @@
-# Índice 
-
-Partes:
-1. 
