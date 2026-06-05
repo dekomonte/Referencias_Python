@@ -1,4 +1,4 @@
-#==========#Data Structure==========
+#==========Data Structure==========
 
 #Lists are like arrays
 li = [1,2,3,4]
