@@ -1,4 +1,4 @@
-#==========#Data Structure==========
+#==========Data Structure==========
 
 #Dictionary
 #It might be called a hash table, maybe map or objects in anothers languages
