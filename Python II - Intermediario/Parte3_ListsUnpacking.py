@@ -1,4 +1,4 @@
-#==========#Data Structure==========
+#==========Data Structure==========
 
 #List unpacking
 a,b,c = [1,2,3]
