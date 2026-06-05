@@ -11,3 +11,4 @@ Partes:
 8. range()
 9. enumerate()
 10. Funções
+11. fozenset()
