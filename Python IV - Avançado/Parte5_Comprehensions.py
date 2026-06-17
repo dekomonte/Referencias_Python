@@ -46,8 +46,14 @@ conjunto4 = {numero**2 for numero in range(10) if numero%2 == 0}
 print(conjunto4)
 
 #Dictionary
-#my_dict = {key:value}
+#{chave: valor for elemento in iteravel}
 print("Dictionary Comprehensions")
 
 my_dict = {num:num*2 for num in [1,3,4]}
 print(my_dict)
+
+my_dict2 = {elemento: elemento*2 for elemento in range(10)}
+print(my_dict2)
+#https://pythonacademy.com.br/blog/dict-comprehensions-no-python
+#https://www.geeksforgeeks.org/python/python-dictionary-comprehension/
+#https://www.datacamp.com/tutorial/python-dictionary-comprehension
