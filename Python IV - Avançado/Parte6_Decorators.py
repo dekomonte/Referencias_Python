@@ -47,3 +47,14 @@ tchau()
 print("É o mesmo que fazer isso:") #Mais confuso
 my_decorator(hello)()
 my_decorator(tchau)()
+
+#Example - Função utilizada em sistema real
+def login_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if 'user_id' not in session:
+            flash("Você precisa estar logado para acessar esta página.")
+            logger.info("Tentativa de acesso sem login.")
+            return redirect(url_for('login'))
+        return f(*args, **kwargs)
+    return decorated_function
