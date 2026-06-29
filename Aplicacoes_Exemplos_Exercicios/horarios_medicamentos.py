@@ -1,15 +1,16 @@
-# Horários para tomar remédio - script mais tosco e nada robusto possível
+# Horários para tomar remédio - script mais tosco e menos robusto possível
 
-# remedio = "Ondansetrona"
-# hora = 9
-# intervalo = 8
+# ["nome do remedio", primeiro horario, intervalo]
+remedios = [
+    ["Ibuprofeno", 8, 8],
+    ["Dipirona", 8, 6],
+    ["Ondansetrona", 8, 4]
+]
 
-remedio = "Toragesic"
-hora = 6
-intervalo = 8 
-
-print(remedio)
-while (hora <= 24):
-    #print(hora,'h')
-    print(hora)
-    hora = hora+intervalo
+for remedio in remedios:
+    print(remedio[0])
+    hora = remedio[1]
+    intervalo = remedio[2]
+    while hora <= 24:
+        print(hora)
+        hora = hora+intervalo
