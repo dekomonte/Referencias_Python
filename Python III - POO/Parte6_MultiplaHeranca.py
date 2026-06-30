@@ -46,3 +46,5 @@ class D(B, C):
 instancia = D()
 print(instancia.grito())
 print(D.__mro__)
+
+#Method Resolution Order (MRO) is the order in which Python looks for a method in a hierarchy of classes
