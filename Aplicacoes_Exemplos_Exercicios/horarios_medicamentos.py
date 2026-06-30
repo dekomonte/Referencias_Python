@@ -2,15 +2,18 @@
 
 # ["nome do remedio", primeiro horario, intervalo]
 remedios = [
-    ["Ibuprofeno", 8, 8],
-    ["Dipirona", 8, 6],
-    ["Ondansetrona", 8, 4]
+    ["Ibuprofeno", 10, 8],
+    ["Dipirona", 9, 6]
+    # ["Ondansetrona", 8, 8]
 ]
 
 for remedio in remedios:
     print(remedio[0])
     hora = remedio[1]
     intervalo = remedio[2]
-    while hora <= 24:
-        print(hora)
+    while hora < 24:
+        print(f"{hora}:00")
         hora = hora+intervalo
+    if hora == 24:
+        print(f"00:00")
+    print("\n")
