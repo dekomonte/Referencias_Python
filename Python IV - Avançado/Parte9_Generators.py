@@ -19,3 +19,13 @@ print(next(gen)) # Executa até encontrar o próximo 'yield'
 print(next(gen))
 print(next(gen))
 print(next(gen))
+
+# Exemplo genérico
+def gen_fun(n):
+  for i in range(n):
+    print("Posso colocar alguma coisa aqui para ser executada ate o proximo yield",i)
+    yield i
+    
+ex = gen_fun(10)
+next(ex)
+next(ex)
